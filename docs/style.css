@@ -306,12 +306,26 @@ h2 {
 }
 
 .research-card .featured li {
-  margin-bottom: 8px;
-  line-height: 1.45;
+  margin-bottom: 12px;
+  line-height: 1.4;
 }
 .research-card .featured li:last-child { margin-bottom: 0; }
 
-.research-card .featured a { color: var(--forest); font-weight: 600; border-bottom-color: rgba(47,82,51,0.3); }
+.research-card .featured a {
+  display: block;
+  color: var(--forest);
+  font-weight: 600;
+  font-size: 14px;
+  border-bottom-color: rgba(47,82,51,0.3);
+}
+
+.research-card .featured .cite {
+  display: block;
+  font-size: 11.5px;
+  color: var(--text-muted);
+  opacity: 0.8;
+  margin-top: 2px;
+}
 
 /* People */
 .people-grid {
@@ -341,6 +355,8 @@ h2 {
 
 .person .name { font-weight: 600; font-size: 15.5px; margin-bottom: 2px; }
 .person .role { font-size: 13.5px; color: var(--text-muted); }
+.person-link { font-size: 13px; margin-top: 4px; }
+.person-link a { color: var(--amber); font-weight: 600; border-bottom-color: rgba(192,138,62,0.35); }
 
 /* Networks */
 .network-list {
