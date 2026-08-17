@@ -355,7 +355,36 @@ h2 {
 
 .person .name { font-weight: 600; font-size: 15.5px; margin-bottom: 2px; }
 .person .role { font-size: 13.5px; color: var(--text-muted); }
+.person .interest { font-size: 12.5px; color: var(--text-muted); font-style: italic; margin-top: 2px; }
 .person-link { font-size: 13px; margin-top: 4px; }
+
+.past-members-heading {
+  margin-top: 40px;
+  font-size: 16px;
+  color: var(--text-muted);
+}
+
+.past-members-list {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+}
+
+.past-members-list li {
+  font-size: 13.5px;
+  color: var(--text-muted);
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+
+.past-members-list li:last-child {
+  border-bottom: none;
+}
+
+.past-members-list .name {
+  font-weight: 600;
+  color: var(--text, inherit);
+}
 .person-link a { color: var(--amber); font-weight: 600; border-bottom-color: rgba(192,138,62,0.35); }
 
 /* Networks */
